@@ -66,7 +66,7 @@ while read -p "git reset ?(y/n)? " cchoice
 do
 case "$cchoice" in
 	y|Y )
-git reset --hard origin/oneui-ksu
+git reset --hard origin/oneui-ksu-moi-ok1
 
 		rm -R out
 		echo
